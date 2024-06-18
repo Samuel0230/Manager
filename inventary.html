@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Inmuebles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            justify-content: center;
+        }
+
+        .button:hover {
+            background-color: #000000;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Inventario de Inmuebles</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sofá</td>
+                <td>Sofá de tres plazas color beige</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Mesa de centro</td>
+                <td>Mesa de madera con superficie de vidrio</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Lámpara de pie</td>
+                <td>Lámpara moderna con base metálica</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Silla</td>
+                <td>Silla de comedor con respaldo alto</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Escritorio</td>
+                <td>Escritorio de madera con cajones</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Espejo</td>
+                <td>Espejo rectangular para montar en la pared</td>
+                <td>6</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+        </tbody>
+    </table>
+    <br>
+    <a href="#" class="button">Agregar Inmueble</a>
+</div>
+
+</body>
+</html>
